@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Language Translation App</title>
+    <title>Beth Translate</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Language Translation App</h1>
-        <label for="sourceText">Enter Text:</label>
-        <textarea id="sourceText" placeholder="Enter text to translate"></textarea>
-        
-        <label for="targetLanguage">Select Target Language:</label>
-        <select id="targetLanguage">
-            <option value="es">Spanish</option>
-            <option value="fr">French</option>
-            <!-- Add more language options as needed -->
-        </select>
-        
-        <button onclick="translate()">Translate</button>
-        
-        <label for="translatedText">Translated Text:</label>
-        <textarea id="translatedText" readonly></textarea>
+        <header>
+            <h1>Beth Translate</h1>
+        </header>
+        <section>
+            <label for="sourceText">Enter Text:</label>
+            <textarea id="sourceText" placeholder="Enter text to translate"></textarea>
+            
+            <label for="targetLanguage">Select Target Language:</label>
+            <select id="targetLanguage">
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <!-- Add more language options as needed -->
+            </select>
+            
+            <button onclick="translate()">Translate</button>
+            
+            <label for="translatedText">Translated Text:</label>
+            <textarea id="translatedText" readonly></textarea>
+        </section>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+
